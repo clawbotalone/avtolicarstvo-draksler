@@ -63,7 +63,7 @@ ul{list-style:none}
 .hero__accent-line{position:absolute;top:0;left:0;width:6px;height:100%;background:var(--accent)}
 .hero__content{position:relative;z-index:2;text-align:center;max-width:960px;padding:0 2rem}
 .hero__label{font-family:var(--font-mono);font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem}
-.hero__title{font-family:var(--font-heading);font-weight:700;font-size:clamp(1.75rem,5vw,4.5rem);line-height:1.1;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1.5rem;word-break:break-word;hyphens:auto;-webkit-hyphens:auto}
+.hero__title{font-family:var(--font-heading);font-weight:700;font-size:clamp(2rem,6vw,4.5rem);line-height:1.1;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1.5rem}
 .hero__title .char{display:inline-block}
 .hero__sub{font-family:var(--font-body);font-size:clamp(1rem,2vw,1.25rem);color:var(--text-muted);max-width:600px;margin:0 auto 2.5rem;line-height:1.7}
 .hero__cta{display:inline-flex;align-items:center;gap:.75rem;background:var(--accent);color:#fff;padding:1rem 2.5rem;font-family:var(--font-mono);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;border-radius:4px;transition:background .3s,transform .3s,box-shadow .3s}
@@ -186,6 +186,7 @@ ul{list-style:none}
 @media(max-width:480px){
   .stats__grid{grid-template-columns:1fr}
   .process__step{flex:0 0 100%}
+  .hero__title{font-size:clamp(1.4rem,7vw,2.5rem);letter-spacing:0.02em;word-break:keep-all;overflow-wrap:normal;hyphens:none;-webkit-hyphens:none}
 }
 </style>
 </head>
